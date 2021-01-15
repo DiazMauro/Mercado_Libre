@@ -1,0 +1,128 @@
+/* ● Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+
+2
+
+● Tipografías
+Familia: 'Roboto'
+
+● Tamaños Tipográficos
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px*/
+
+
+
+
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-size: 12px;
+    background-color: #EAC926;
+}
+main{
+    box-sizing: border-box;
+    text-align:center;
+    width: 90%;
+    margin: 10px;
+
+}
+.article{
+    margin: 10px;
+    background-color: white;
+}
+.article-container{
+    border-top: 2px solid #ebebeb;
+    text-align: left;
+    padding: 1em;
+}
+.titles{
+    font-size: 24px;
+}
+.prices{
+    font-size: 18px;
+}
+.discounts {
+    font-size: 16px;
+    color: #39b54a ;
+}
+.description {
+    font-size: 16px;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    
+}
+.icons{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #03264C;
+}
+.icons-bars{
+    background-color: blue;
+    font-size: 2em;
+    color: white;
+    padding: .5em;
+    border-radius: 10%;
+}
+nav{
+    padding: .5em;
+}
+.logo{
+    padding:2em
+}
+.div-header{
+    border-top: 1em;
+}
+.div-bars{
+    text-align: center;
+}
+input{
+    width: 15em;
+}
+.div-logo{
+    padding: 2em;
+}
+.magnifying-glass{
+    background-color: #fff;
+    border: 1px #666 solid  ;
+    padding: .3em;
+    margin: .1em 0em;
+}
+.circle{
+
+        padding: .3em 1em 1em .3em;
+        border-radius: 50%;
+        background: transparent;
+        border:1px solid #39b54a;
+}
+
+
+
+/* Tablets */
+@media(min-width:361px){
+    .article{box-shadow: 0px 0px 10px rgb(100, 100, 100);}
+    
+}
+@media(max-width:361px){
+    .description{display: none;}
+    .div-header{display: none;}
+}
+
+/* Desktop */
+@media(min-width:769px){
+    .article{box-shadow: 0px 0px 10px rgb(100, 100, 100);}
+        
+}
+@media(max-width:769px){
+    .icons-bars{display: none;}
+}
